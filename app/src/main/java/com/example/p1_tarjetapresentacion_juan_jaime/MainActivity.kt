@@ -84,19 +84,19 @@ fun BusinessCardScreen() {
             ) {
                 ContactRow(
                     icono = R.drawable.phone,
-                    descripcion = "Teléfono",
+                    descripcion = stringResource(R.string.phone_desc),
                     texto = stringResource(R.string.phone)
                 )
 
                 ContactRow(
                     icono = R.drawable.link,
-                    descripcion = "Enlace a github",
+                    descripcion = stringResource(R.string.social_desc),
                     texto = stringResource(R.string.social)
                 )
 
                 ContactRow(
                     icono = R.drawable.mail,
-                    descripcion = "Correo electrónico",
+                    descripcion = stringResource(R.string.email_desc),
                     texto = stringResource(R.string.email)
                 )
             }
@@ -117,7 +117,7 @@ fun ContactRow(
         verticalAlignment = Alignment.CenterVertically
     ) {
         Box(
-            modifier = Modifier.width(100.dp),
+            modifier = Modifier.fillMaxWidth(0.30f),
             contentAlignment = Alignment.CenterEnd
         ) {
             Image(
@@ -127,7 +127,7 @@ fun ContactRow(
             )
         }
 
-        Spacer(modifier = Modifier.width(16.dp))
+        Spacer(modifier = Modifier.width(8.dp))
 
         // Todos los textos empiezan en el mismo punto
         Text(
