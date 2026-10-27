@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">P1_TarjetaPresentacion_Juan_Jaime</string>
+    <string name="app_name">Jaime_and_juan_app</string>
+    <string name="full_name">Juaime</string>
+    <string name="job_title">C lover y game developer</string>
+    <string name="phone">+34 123456789</string>
+    <string name="social">GithubJuaime.com</string>
+    <string name="email">juaime@theBest.com</string>
+    <string name="name">Jaime Alonso y Juan Morales</string>
+    <string name="phone_icon_description">Icono de teléfono</string>
+    <string name="link_icon_description">Icono de enlace a redes sociales</string>
+    <string name="mail_icon_description">Icono de correo electrónico</string>
+
 </resources>
